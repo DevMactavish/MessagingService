@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71617041-3154-4D71-95A4-E0027DB7141D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7CEE4ECD-E15E-413B-A22B-C2DC78500BEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A90142FB-DEE2-4C16-84DA-161AC8E5C583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E608CC9B-01AB-4F12-8006-3016DE8AD692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E57C33DF-B111-4491-BA7A-4E578F0168F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{92DC5BC8-0F02-4451-BAAA-ACA83E6AD487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Api", "src\Api\MessagingService.Api\MessagingService.Api.csproj", "{4B34DA04-51E4-44F9-95C4-363A2CEDE108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Application", "src\Application\MessagingService.Application\MessagingService.Application.csproj", "{22838010-073B-4DC9-9F9E-79A75CB2C3BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Infrastructure", "src\Infrastructure\MessagingService.Infrastructure\MessagingService.Infrastructure.csproj", "{FE17A649-61D1-4119-AC0E-3D8D79CCC00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Domain.Services", "src\Domain\MessagingService.Domain.Services\MessagingService.Domain.Services.csproj", "{DAF03FF9-AB7F-49E6-A542-4D8D2C497252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Domain", "src\Domain\MessagingService.Domain\MessagingService.Domain.csproj", "{949AB018-CEDC-48FA-A2B2-35FF6B3DC10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Domain.Repositories", "src\Domain\MessagingService.Domain.Repositories\MessagingService.Domain.Repositories.csproj", "{271FC28B-D3E1-4D25-8D64-ECBE6399F544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Test", "test\MessagingService.Test\MessagingService.Test.csproj", "{427157C6-E598-43C4-9DC0-80FDDF1286EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A90142FB-DEE2-4C16-84DA-161AC8E5C583} = {71617041-3154-4D71-95A4-E0027DB7141D}
+		{E608CC9B-01AB-4F12-8006-3016DE8AD692} = {71617041-3154-4D71-95A4-E0027DB7141D}
+		{E57C33DF-B111-4491-BA7A-4E578F0168F5} = {71617041-3154-4D71-95A4-E0027DB7141D}
+		{92DC5BC8-0F02-4451-BAAA-ACA83E6AD487} = {71617041-3154-4D71-95A4-E0027DB7141D}
+		{4B34DA04-51E4-44F9-95C4-363A2CEDE108} = {A90142FB-DEE2-4C16-84DA-161AC8E5C583}
+		{22838010-073B-4DC9-9F9E-79A75CB2C3BC} = {E608CC9B-01AB-4F12-8006-3016DE8AD692}
+		{FE17A649-61D1-4119-AC0E-3D8D79CCC00F} = {92DC5BC8-0F02-4451-BAAA-ACA83E6AD487}
+		{DAF03FF9-AB7F-49E6-A542-4D8D2C497252} = {E57C33DF-B111-4491-BA7A-4E578F0168F5}
+		{949AB018-CEDC-48FA-A2B2-35FF6B3DC10E} = {E57C33DF-B111-4491-BA7A-4E578F0168F5}
+		{271FC28B-D3E1-4D25-8D64-ECBE6399F544} = {E57C33DF-B111-4491-BA7A-4E578F0168F5}
+		{427157C6-E598-43C4-9DC0-80FDDF1286EF} = {7CEE4ECD-E15E-413B-A22B-C2DC78500BEB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B34DA04-51E4-44F9-95C4-363A2CEDE108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B34DA04-51E4-44F9-95C4-363A2CEDE108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B34DA04-51E4-44F9-95C4-363A2CEDE108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B34DA04-51E4-44F9-95C4-363A2CEDE108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22838010-073B-4DC9-9F9E-79A75CB2C3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22838010-073B-4DC9-9F9E-79A75CB2C3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22838010-073B-4DC9-9F9E-79A75CB2C3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22838010-073B-4DC9-9F9E-79A75CB2C3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE17A649-61D1-4119-AC0E-3D8D79CCC00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE17A649-61D1-4119-AC0E-3D8D79CCC00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE17A649-61D1-4119-AC0E-3D8D79CCC00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE17A649-61D1-4119-AC0E-3D8D79CCC00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF03FF9-AB7F-49E6-A542-4D8D2C497252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF03FF9-AB7F-49E6-A542-4D8D2C497252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF03FF9-AB7F-49E6-A542-4D8D2C497252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF03FF9-AB7F-49E6-A542-4D8D2C497252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949AB018-CEDC-48FA-A2B2-35FF6B3DC10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949AB018-CEDC-48FA-A2B2-35FF6B3DC10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949AB018-CEDC-48FA-A2B2-35FF6B3DC10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949AB018-CEDC-48FA-A2B2-35FF6B3DC10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271FC28B-D3E1-4D25-8D64-ECBE6399F544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271FC28B-D3E1-4D25-8D64-ECBE6399F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271FC28B-D3E1-4D25-8D64-ECBE6399F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271FC28B-D3E1-4D25-8D64-ECBE6399F544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427157C6-E598-43C4-9DC0-80FDDF1286EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427157C6-E598-43C4-9DC0-80FDDF1286EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427157C6-E598-43C4-9DC0-80FDDF1286EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427157C6-E598-43C4-9DC0-80FDDF1286EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
